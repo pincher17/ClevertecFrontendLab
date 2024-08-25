@@ -1,0 +1,1 @@
+export { JointTrainings } from './JointTrainings'

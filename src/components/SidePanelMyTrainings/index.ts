@@ -1,0 +1,1 @@
+export { SidePanelMyTrainings } from './SidePanelMyTrainings'

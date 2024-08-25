@@ -1,0 +1,1 @@
+export { WeekdayStatistic } from './WeekdayStatistic'

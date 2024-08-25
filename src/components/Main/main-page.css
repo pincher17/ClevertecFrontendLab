@@ -1,0 +1,87 @@
+
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+  div.ant-card-head-title{
+    white-space: wrap;
+    text-align: center;
+  }
+
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list{
+    width: 100%;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active.ant-tabs-tab-btn {
+      color: rgb(47,84,235);
+    }
+
+    .ant-tabs-ink-bar{
+      background: rgb(47,84,235);
+
+    }
+
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: rgb(47,84,235);
+      border-color: rgb(47,84,235);
+
+  }
+
+  .ant-input-group .ant-input{
+    height: 40px;
+  }
+
+  .ant-input-affix-wrapper{
+    height: 40px;
+  }
+
+  .ant-tabs-tab-btn{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 20.8px;
+  }
+
+  .ant-form-item{
+    margin-bottom: 31px;
+  }

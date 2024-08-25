@@ -1,0 +1,70 @@
+.ant-tabs.achievements-tabs > .ant-tabs-nav .ant-tabs-nav-list, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter';
+  line-height: 20.8px;
+  color: black;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgba(47, 84, 235, 1);
+  text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs-ink-bar {
+  border-bottom: 2px solid rgba(47, 84, 235, 1);
+}
+
+.ant-select-arrow {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.ant-select.select-mytrainings:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.ant-drawer.ant-drawer-right.no-mask.drawer-mytrainings.ant-drawer-open{
+  z-index: 999;
+}
+.ant-drawer.ant-drawer-bottom.no-mask.drawer-mytrainings.ant-drawer-open{
+  z-index: 1001;
+}
+.search-trainings .ant-input-group .ant-input {
+  height: 32px 
+}
+
+@media only screen and (max-width: 834px) {
+  .ant-tabs-tab-btn {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+} 
+
+.ant-tag-checkable {
+  border: 1px solid rgba(240, 240, 240, 1);
+  margin-right: 12px;
+  margin-top: 9px;
+}
+
+.ant-tag-checkable-checked {
+  background-color: rgba(240, 245, 255, 1);
+  color: rgba(47, 84, 235, 1);
+  border: 1px solid rgba(47, 84, 235, 1);
+}
+
+@media only screen and (max-width: 530px) {
+  .ant-tabs.achievements-tabs > .ant-tabs-nav .ant-tabs-nav-list, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+    width: initial;
+  }
+}

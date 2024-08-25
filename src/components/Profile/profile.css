@@ -1,0 +1,23 @@
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: red;
+  }
+  /* Upload text*/
+  .ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: red;
+  }
+  
+  .ant-upload-picture-card-wrapper {
+    display: inline-block;
+    width: auto;
+    margin-right: 24px;
+}
+
+.ant-result-success .ant-result-icon > .anticon {
+    color: rgba(47, 84, 235, 1);
+}
+
+.ant-result-success .ant-result {
+    padding: 48px 0px;
+}

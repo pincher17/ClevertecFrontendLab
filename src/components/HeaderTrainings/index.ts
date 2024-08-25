@@ -1,0 +1,1 @@
+export { HeaderTrainings } from './HeaderTrainings'
